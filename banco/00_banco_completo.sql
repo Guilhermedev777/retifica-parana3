@@ -62,6 +62,15 @@ CREATE TABLE IF NOT EXISTS movimentacao_estoque (
         REFERENCES peca (id)
 ) ENGINE = InnoDB;
 
+-- Se o banco ja existia de uma versao anterior, a tabela peca foi criada sem a
+-- coluna de fornecedor, e o CREATE TABLE IF NOT EXISTS acima nao mexe em tabela
+-- que ja existe. A coluna e a chave estrangeira entram aqui, para o script
+-- servir tanto para banco novo quanto para banco antigo.
+ALTER TABLE peca ADD COLUMN IF NOT EXISTS fornecedor_id INT NULL AFTER categoria_id;
+
+ALTER TABLE peca ADD CONSTRAINT fk_peca_fornecedor
+    FOREIGN KEY IF NOT EXISTS (fornecedor_id) REFERENCES fornecedor (id);
+
 CREATE INDEX IF NOT EXISTS idx_peca_categoria    ON peca (categoria_id);
 CREATE INDEX IF NOT EXISTS idx_peca_fornecedor   ON peca (fornecedor_id);
 CREATE INDEX IF NOT EXISTS idx_peca_ativo        ON peca (ativo);
@@ -112,7 +121,10 @@ INSERT INTO peca (codigo, nome, categoria_id, fornecedor_id, quantidade, quantid
     ('PN-4005', 'Kit juntas retifica completa',  4, 3,  2,  4,  398.00),
     ('PN-5003', 'Bronzina de mancal 0,50',       5, 2, 16,  8,   64.90),
     ('PN-5004', 'Casquilho de eixo comando',     5, 1,  7,  5,   97.30)
-ON DUPLICATE KEY UPDATE nome = VALUES(nome);
+ON DUPLICATE KEY UPDATE
+    nome          = VALUES(nome),
+    categoria_id  = VALUES(categoria_id),
+    fornecedor_id = VALUES(fornecedor_id);
 
 INSERT INTO movimentacao_estoque (peca_id, tipo, quantidade, observacao)
 SELECT p.id, 'ENTRADA', 10, 'Carga inicial do balcao'

@@ -39,7 +39,10 @@ INSERT INTO peca (codigo, nome, categoria_id, fornecedor_id, quantidade, quantid
     ('PN-4005', 'Kit juntas retifica completa',  4, 3,  2,  4,  398.00),
     ('PN-5003', 'Bronzina de mancal 0,50',       5, 2, 16,  8,   64.90),
     ('PN-5004', 'Casquilho de eixo comando',     5, 1,  7,  5,   97.30)
-ON DUPLICATE KEY UPDATE nome = VALUES(nome);
+ON DUPLICATE KEY UPDATE
+    nome          = VALUES(nome),
+    categoria_id  = VALUES(categoria_id),
+    fornecedor_id = VALUES(fornecedor_id);
 
 INSERT INTO movimentacao_estoque (peca_id, tipo, quantidade, observacao)
 SELECT p.id, 'ENTRADA', 10, 'Carga inicial do balcao'
