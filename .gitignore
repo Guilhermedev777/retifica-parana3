@@ -9,6 +9,9 @@ package-lock.json
 # Script auxiliar local
 enviar-para-github.bat
 
+# Material de estudo pessoal, nao faz parte do projeto
+ROTEIRO-APRESENTACAO.md
+
 # Lixo de sistema operacional
 Thumbs.db
 desktop.ini
