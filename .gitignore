@@ -1,0 +1,19 @@
+# Dependencias do Node (o projeto roda sem elas)
+node_modules/
+package.json
+package-lock.json
+
+# Configuracao local de ferramenta, nao faz parte do projeto
+.claude/
+
+# Script auxiliar local
+enviar-para-github.bat
+
+# Lixo de sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ATENCAO: public/js/ NAO entra aqui de proposito.
+# O JavaScript compilado vai junto no repositorio para o projeto
+# rodar sem precisar instalar o Node, como o README promete.
