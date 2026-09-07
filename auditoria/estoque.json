@@ -1,0 +1,1602 @@
+[
+  {
+    "codigo": 1001,
+    "nome": "Teclado Mecânico RGB",
+    "preco": 249.9,
+    "quantidade": 15,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 101,
+      "nome": "Teclados",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1002,
+    "nome": "Teclado Sem Fio Ergonômico",
+    "preco": 389,
+    "quantidade": 8,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 101,
+      "nome": "Teclados",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1003,
+    "nome": "Teclado Compacto 60%",
+    "preco": 199.9,
+    "quantidade": 20,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 101,
+      "nome": "Teclados",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1004,
+    "nome": "Teclado Gamer Membrana",
+    "preco": 89.9,
+    "quantidade": 35,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 101,
+      "nome": "Teclados",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1005,
+    "nome": "Teclado Numérico Wireless",
+    "preco": 65,
+    "quantidade": 12,
+    "ativo": false,
+    "subcategoria": {
+      "codigo": 101,
+      "nome": "Teclados",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1006,
+    "nome": "Teclado Mini Bluetooth",
+    "preco": 129.9,
+    "quantidade": 18,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 101,
+      "nome": "Teclados",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1007,
+    "nome": "Teclado Mecânico Switch Blue",
+    "preco": 279,
+    "quantidade": 10,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 101,
+      "nome": "Teclados",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1008,
+    "nome": "Teclado Mecânico Switch Red",
+    "preco": 299,
+    "quantidade": 14,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 101,
+      "nome": "Teclados",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1009,
+    "nome": "Teclado Low Profile",
+    "preco": 450,
+    "quantidade": 5,
+    "ativo": false,
+    "subcategoria": {
+      "codigo": 101,
+      "nome": "Teclados",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1010,
+    "nome": "Teclado Custom Hotswap",
+    "preco": 599.9,
+    "quantidade": 7,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 101,
+      "nome": "Teclados",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1011,
+    "nome": "Mouse Óptico Gamer 16000 DPI",
+    "preco": 149.9,
+    "quantidade": 25,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 102,
+      "nome": "Mouses",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1012,
+    "nome": "Mouse Ergonômico Vertical",
+    "preco": 189,
+    "quantidade": 11,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 102,
+      "nome": "Mouses",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1013,
+    "nome": "Mouse Sem Fio Ultraleve",
+    "preco": 220,
+    "quantidade": 16,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 102,
+      "nome": "Mouses",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1014,
+    "nome": "Mouse Bluetooth Produtividade",
+    "preco": 99.9,
+    "quantidade": 30,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 102,
+      "nome": "Mouses",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1015,
+    "nome": "Mouse Gamer RGB 8 Botões",
+    "preco": 175,
+    "quantidade": 22,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 102,
+      "nome": "Mouses",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1016,
+    "nome": "Mouse Trackball Wireless",
+    "preco": 310,
+    "quantidade": 4,
+    "ativo": false,
+    "subcategoria": {
+      "codigo": 102,
+      "nome": "Mouses",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1017,
+    "nome": "Mouse MMO 12 Botões Laterais",
+    "preco": 349.9,
+    "quantidade": 9,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 102,
+      "nome": "Mouses",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1018,
+    "nome": "Mouse Ambidestro Gamer",
+    "preco": 159,
+    "quantidade": 13,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 102,
+      "nome": "Mouses",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1019,
+    "nome": "Mouse Silencioso Office",
+    "preco": 79.9,
+    "quantidade": 40,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 102,
+      "nome": "Mouses",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1020,
+    "nome": "Mouse Sensor PixArt 3395",
+    "preco": 289.9,
+    "quantidade": 6,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 102,
+      "nome": "Mouses",
+      "codigoCategoria": 1
+    },
+    "categoria": {
+      "codigo": 1,
+      "nome": "Periféricos"
+    }
+  },
+  {
+    "codigo": 1021,
+    "nome": "Processador Octa-Core 3.8GHz",
+    "preco": 1299,
+    "quantidade": 10,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 201,
+      "nome": "Processadores",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1022,
+    "nome": "Processador Hexa-Core 4.2GHz",
+    "preco": 899.9,
+    "quantidade": 18,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 201,
+      "nome": "Processadores",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1023,
+    "nome": "Processador Quad-Core 3.6GHz",
+    "preco": 499,
+    "quantidade": 25,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 201,
+      "nome": "Processadores",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1024,
+    "nome": "Processador 12-Core 4.7GHz",
+    "preco": 2199,
+    "quantidade": 6,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 201,
+      "nome": "Processadores",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1025,
+    "nome": "Processador 16-Core 5.2GHz",
+    "preco": 3499.9,
+    "quantidade": 3,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 201,
+      "nome": "Processadores",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1026,
+    "nome": "Processador Octa-Core Gráficos Integrados",
+    "preco": 1099,
+    "quantidade": 12,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 201,
+      "nome": "Processadores",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1027,
+    "nome": "Processador High-End 24-Core",
+    "preco": 4299,
+    "quantidade": 2,
+    "ativo": false,
+    "subcategoria": {
+      "codigo": 201,
+      "nome": "Processadores",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1028,
+    "nome": "Processador Server 32-Core",
+    "preco": 7800,
+    "quantidade": 1,
+    "ativo": false,
+    "subcategoria": {
+      "codigo": 201,
+      "nome": "Processadores",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1029,
+    "nome": "Processador Hexa-Core Eco",
+    "preco": 750,
+    "quantidade": 15,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 201,
+      "nome": "Processadores",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1030,
+    "nome": "Processador Octa-Core Unlocked",
+    "preco": 1450,
+    "quantidade": 8,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 201,
+      "nome": "Processadores",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1031,
+    "nome": "Placa de Vídeo 8GB GDDR6",
+    "preco": 1899,
+    "quantidade": 9,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 202,
+      "nome": "Placas de Vídeo",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1032,
+    "nome": "Placa de Vídeo 12GB GDDR6X",
+    "preco": 3299.9,
+    "quantidade": 5,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 202,
+      "nome": "Placas de Vídeo",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1033,
+    "nome": "Placa de Vídeo 16GB GDDR6X",
+    "preco": 4899,
+    "quantidade": 4,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 202,
+      "nome": "Placas de Vídeo",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1034,
+    "nome": "Placa de Vídeo 24GB GDDR6X",
+    "preco": 9499,
+    "quantidade": 2,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 202,
+      "nome": "Placas de Vídeo",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1035,
+    "nome": "Placa de Vídeo Entry Level 4GB",
+    "preco": 650,
+    "quantidade": 20,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 202,
+      "nome": "Placas de Vídeo",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1036,
+    "nome": "Placa de Vídeo Dual Fan 8GB",
+    "preco": 1750,
+    "quantidade": 11,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 202,
+      "nome": "Placas de Vídeo",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1037,
+    "nome": "Placa de Vídeo Triple Fan 12GB",
+    "preco": 3599,
+    "quantidade": 7,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 202,
+      "nome": "Placas de Vídeo",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1038,
+    "nome": "Placa de Vídeo Low Profile 6GB",
+    "preco": 1100,
+    "quantidade": 8,
+    "ativo": false,
+    "subcategoria": {
+      "codigo": 202,
+      "nome": "Placas de Vídeo",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1039,
+    "nome": "Placa de Vídeo Watercooled 16GB",
+    "preco": 5600,
+    "quantidade": 3,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 202,
+      "nome": "Placas de Vídeo",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1040,
+    "nome": "Placa de Vídeo OC Edition 12GB",
+    "preco": 3799.9,
+    "quantidade": 6,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 202,
+      "nome": "Placas de Vídeo",
+      "codigoCategoria": 2
+    },
+    "categoria": {
+      "codigo": 2,
+      "nome": "Hardware & Componentes"
+    }
+  },
+  {
+    "codigo": 1041,
+    "nome": "Headset Surround 7.1 Wireless",
+    "preco": 499.9,
+    "quantidade": 14,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 301,
+      "nome": "Headsets & Fones",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1042,
+    "nome": "Fone TWS Cancelamento de Ruído",
+    "preco": 299,
+    "quantidade": 30,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 301,
+      "nome": "Headsets & Fones",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1043,
+    "nome": "Headset P2 Estéreo com Microfone",
+    "preco": 119.9,
+    "quantidade": 22,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 301,
+      "nome": "Headsets & Fones",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1044,
+    "nome": "Fone In-Ear Monitor de Palco",
+    "preco": 180,
+    "quantidade": 17,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 301,
+      "nome": "Headsets & Fones",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1045,
+    "nome": "Headset Gamer RGB USB",
+    "preco": 250,
+    "quantidade": 19,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 301,
+      "nome": "Headsets & Fones",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1046,
+    "nome": "Fone Bluetooth Over-Ear Hi-Fi",
+    "preco": 650,
+    "quantidade": 8,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 301,
+      "nome": "Headsets & Fones",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1047,
+    "nome": "Headset Noise Cancelling Profissional",
+    "preco": 1200,
+    "quantidade": 5,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 301,
+      "nome": "Headsets & Fones",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1048,
+    "nome": "Fone Esportivo Open-Ear",
+    "preco": 230,
+    "quantidade": 12,
+    "ativo": false,
+    "subcategoria": {
+      "codigo": 301,
+      "nome": "Headsets & Fones",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1049,
+    "nome": "Headset Studio Monitor 250 ohms",
+    "preco": 890,
+    "quantidade": 6,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 301,
+      "nome": "Headsets & Fones",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1050,
+    "nome": "Fone Wireless Bateria 40h",
+    "preco": 349.9,
+    "quantidade": 16,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 301,
+      "nome": "Headsets & Fones",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1051,
+    "nome": "Monitor UltraWide 29 IPS",
+    "preco": 1199,
+    "quantidade": 8,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 302,
+      "nome": "Monitores",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1052,
+    "nome": "Monitor Gamer 27 165Hz 1ms",
+    "preco": 1399.9,
+    "quantidade": 12,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 302,
+      "nome": "Monitores",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1053,
+    "nome": "Monitor 4K UHD 32 Polegadas",
+    "preco": 2499,
+    "quantidade": 5,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 302,
+      "nome": "Monitores",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1054,
+    "nome": "Monitor Curvo 24 144Hz",
+    "preco": 989.9,
+    "quantidade": 15,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 302,
+      "nome": "Monitores",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1055,
+    "nome": "Monitor Portátil 15.6 USB-C",
+    "preco": 850,
+    "quantidade": 7,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 302,
+      "nome": "Monitores",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1056,
+    "nome": "Monitor Profissional AdobeRGB 27",
+    "preco": 3800,
+    "quantidade": 3,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 302,
+      "nome": "Monitores",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1057,
+    "nome": "Monitor Gamer OLED 240Hz",
+    "preco": 5200,
+    "quantidade": 2,
+    "ativo": false,
+    "subcategoria": {
+      "codigo": 302,
+      "nome": "Monitores",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1058,
+    "nome": "Monitor QHD 27 75Hz",
+    "preco": 1250,
+    "quantidade": 10,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 302,
+      "nome": "Monitores",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1059,
+    "nome": "Monitor Dual HDMI 23.8",
+    "preco": 699,
+    "quantidade": 18,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 302,
+      "nome": "Monitores",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1060,
+    "nome": "Monitor Ergostand 27 4K",
+    "preco": 2799,
+    "quantidade": 4,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 302,
+      "nome": "Monitores",
+      "codigoCategoria": 3
+    },
+    "categoria": {
+      "codigo": 3,
+      "nome": "Áudio & Vídeo"
+    }
+  },
+  {
+    "codigo": 1061,
+    "nome": "Smartphone 128GB Tela 6.5",
+    "preco": 1499,
+    "quantidade": 20,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 401,
+      "nome": "Smartphones",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1062,
+    "nome": "Smartphone 256GB Câmera 108MP",
+    "preco": 2299.9,
+    "quantidade": 14,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 401,
+      "nome": "Smartphones",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1063,
+    "nome": "Smartphone Flagship 512GB 5G",
+    "preco": 4999,
+    "quantidade": 7,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 401,
+      "nome": "Smartphones",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1064,
+    "nome": "Smartphone Dobrável 256GB",
+    "preco": 6890,
+    "quantidade": 4,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 401,
+      "nome": "Smartphones",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1065,
+    "nome": "Smartphone Gamer 12GB RAM",
+    "preco": 3799,
+    "quantidade": 6,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 401,
+      "nome": "Smartphones",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1066,
+    "nome": "Smartphone Entrada 64GB",
+    "preco": 799,
+    "quantidade": 28,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 401,
+      "nome": "Smartphones",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1067,
+    "nome": "Smartphone Resistente Bateria 6000mAh",
+    "preco": 1650,
+    "quantidade": 10,
+    "ativo": false,
+    "subcategoria": {
+      "codigo": 401,
+      "nome": "Smartphones",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1068,
+    "nome": "Smartphone Tela AMOLED 120Hz",
+    "preco": 1899,
+    "quantidade": 16,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 401,
+      "nome": "Smartphones",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1069,
+    "nome": "Smartphone Câmera Quádrupla 64MP",
+    "preco": 1750,
+    "quantidade": 11,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 401,
+      "nome": "Smartphones",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1070,
+    "nome": "Smartphone Pro Max 1TB 5G",
+    "preco": 8999,
+    "quantidade": 2,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 401,
+      "nome": "Smartphones",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1071,
+    "nome": "Smartwatch Esportivo GPS",
+    "preco": 599,
+    "quantidade": 18,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 402,
+      "nome": "Smartwatches & Wearables",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1072,
+    "nome": "Smartwatch Oxímetro e ECG",
+    "preco": 899.9,
+    "quantidade": 12,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 402,
+      "nome": "Smartwatches & Wearables",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1073,
+    "nome": "Smartwatch Tela AMOLED Always-On",
+    "preco": 450,
+    "quantidade": 22,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 402,
+      "nome": "Smartwatches & Wearables",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1074,
+    "nome": "Smartband Monitor Cardíaco",
+    "preco": 199.9,
+    "quantidade": 35,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 402,
+      "nome": "Smartwatches & Wearables",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1075,
+    "nome": "Smartwatch Caixa Alumínio 44mm",
+    "preco": 1299,
+    "quantidade": 9,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 402,
+      "nome": "Smartwatches & Wearables",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1076,
+    "nome": "Smartwatch Resistente à Água 50m",
+    "preco": 680,
+    "quantidade": 14,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 402,
+      "nome": "Smartwatches & Wearables",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1077,
+    "nome": "Smartwatch com Chamadas Bluetooth",
+    "preco": 379,
+    "quantidade": 25,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 402,
+      "nome": "Smartwatches & Wearables",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1078,
+    "nome": "Smartwatch Infantil com GPS",
+    "preco": 280,
+    "quantidade": 8,
+    "ativo": false,
+    "subcategoria": {
+      "codigo": 402,
+      "nome": "Smartwatches & Wearables",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1079,
+    "nome": "Smartwatch Titânio Sapphire",
+    "preco": 2499,
+    "quantidade": 3,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 402,
+      "nome": "Smartwatches & Wearables",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1080,
+    "nome": "Smartband Bateria 14 Dias",
+    "preco": 159.9,
+    "quantidade": 40,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 402,
+      "nome": "Smartwatches & Wearables",
+      "codigoCategoria": 4
+    },
+    "categoria": {
+      "codigo": 4,
+      "nome": "Dispositivos Móveis"
+    }
+  },
+  {
+    "codigo": 1081,
+    "nome": "Console de Mesa 1TB SSD 4K",
+    "preco": 3999,
+    "quantidade": 8,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 501,
+      "nome": "Consoles",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1082,
+    "nome": "Console Portátil Tela OLED 64GB",
+    "preco": 2199,
+    "quantidade": 15,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 501,
+      "nome": "Consoles",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1083,
+    "nome": "Console Digital Edition 825GB",
+    "preco": 3499.9,
+    "quantidade": 10,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 501,
+      "nome": "Consoles",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1084,
+    "nome": "Console Retrô com 500 Jogos",
+    "preco": 180,
+    "quantidade": 30,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 501,
+      "nome": "Consoles",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1085,
+    "nome": "Console Híbrido 32GB",
+    "preco": 1899,
+    "quantidade": 12,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 501,
+      "nome": "Consoles",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1086,
+    "nome": "Console de Mesa Edição Especial 2TB",
+    "preco": 4799,
+    "quantidade": 4,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 501,
+      "nome": "Consoles",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1087,
+    "nome": "Console Portátil PC Gaming 512GB",
+    "preco": 4200,
+    "quantidade": 5,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 501,
+      "nome": "Consoles",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1088,
+    "nome": "Console Compacto Full HD",
+    "preco": 2100,
+    "quantidade": 9,
+    "ativo": false,
+    "subcategoria": {
+      "codigo": 501,
+      "nome": "Consoles",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1089,
+    "nome": "Console Portátil Lite",
+    "preco": 1250,
+    "quantidade": 16,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 501,
+      "nome": "Consoles",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1090,
+    "nome": "Console Next-Gen 1TB com Jogo",
+    "preco": 4199,
+    "quantidade": 6,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 501,
+      "nome": "Consoles",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1091,
+    "nome": "Controle Sem Fio Bluetooth Preto",
+    "preco": 399,
+    "quantidade": 25,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 502,
+      "nome": "Controles & Acessórios",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1092,
+    "nome": "Controle Pro com Gatilhos Ajustáveis",
+    "preco": 799.9,
+    "quantidade": 7,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 502,
+      "nome": "Controles & Acessórios",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1093,
+    "nome": "Controle Volante com Pedais Force Feedback",
+    "preco": 1899,
+    "quantidade": 4,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 502,
+      "nome": "Controles & Acessórios",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1094,
+    "nome": "Controle Arcade Stick Fightpad",
+    "preco": 650,
+    "quantidade": 6,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 502,
+      "nome": "Controles & Acessórios",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1095,
+    "nome": "Controle Dual Vibration USB",
+    "preco": 89.9,
+    "quantidade": 35,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 502,
+      "nome": "Controles & Acessórios",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1096,
+    "nome": "Controle com Grip Antiderrapante",
+    "preco": 429,
+    "quantidade": 18,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 502,
+      "nome": "Controles & Acessórios",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1097,
+    "nome": "Controle Sem Fio Branco com Bateria",
+    "preco": 419,
+    "quantidade": 20,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 502,
+      "nome": "Controles & Acessórios",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1098,
+    "nome": "Controle Grip para Smartphone",
+    "preco": 149.9,
+    "quantidade": 22,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 502,
+      "nome": "Controles & Acessórios",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1099,
+    "nome": "Controle Joystick Simulador Voo",
+    "preco": 1100,
+    "quantidade": 3,
+    "ativo": false,
+    "subcategoria": {
+      "codigo": 502,
+      "nome": "Controles & Acessórios",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  },
+  {
+    "codigo": 1100,
+    "nome": "Controle Retro USB SNES",
+    "preco": 49.9,
+    "quantidade": 50,
+    "ativo": true,
+    "subcategoria": {
+      "codigo": 502,
+      "nome": "Controles & Acessórios",
+      "codigoCategoria": 5
+    },
+    "categoria": {
+      "codigo": 5,
+      "nome": "Consoles & Games"
+    }
+  }
+]

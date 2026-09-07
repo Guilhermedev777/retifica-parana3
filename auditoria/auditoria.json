@@ -1,0 +1,261 @@
+{
+  "valorTotalEstoque": 1150221.9,
+  "produtosCriticos": [
+    {
+      "codigo": 1016,
+      "nome": "Mouse Trackball Wireless",
+      "preco": 310,
+      "quantidade": 4,
+      "ativo": false,
+      "subcategoria": {
+        "codigo": 102,
+        "nome": "Mouses",
+        "codigoCategoria": 1
+      },
+      "categoria": {
+        "codigo": 1,
+        "nome": "Periféricos"
+      }
+    },
+    {
+      "codigo": 1025,
+      "nome": "Processador 16-Core 5.2GHz",
+      "preco": 3499.9,
+      "quantidade": 3,
+      "ativo": true,
+      "subcategoria": {
+        "codigo": 201,
+        "nome": "Processadores",
+        "codigoCategoria": 2
+      },
+      "categoria": {
+        "codigo": 2,
+        "nome": "Hardware & Componentes"
+      }
+    },
+    {
+      "codigo": 1027,
+      "nome": "Processador High-End 24-Core",
+      "preco": 4299,
+      "quantidade": 2,
+      "ativo": false,
+      "subcategoria": {
+        "codigo": 201,
+        "nome": "Processadores",
+        "codigoCategoria": 2
+      },
+      "categoria": {
+        "codigo": 2,
+        "nome": "Hardware & Componentes"
+      }
+    },
+    {
+      "codigo": 1028,
+      "nome": "Processador Server 32-Core",
+      "preco": 7800,
+      "quantidade": 1,
+      "ativo": false,
+      "subcategoria": {
+        "codigo": 201,
+        "nome": "Processadores",
+        "codigoCategoria": 2
+      },
+      "categoria": {
+        "codigo": 2,
+        "nome": "Hardware & Componentes"
+      }
+    },
+    {
+      "codigo": 1033,
+      "nome": "Placa de Vídeo 16GB GDDR6X",
+      "preco": 4899,
+      "quantidade": 4,
+      "ativo": true,
+      "subcategoria": {
+        "codigo": 202,
+        "nome": "Placas de Vídeo",
+        "codigoCategoria": 2
+      },
+      "categoria": {
+        "codigo": 2,
+        "nome": "Hardware & Componentes"
+      }
+    },
+    {
+      "codigo": 1034,
+      "nome": "Placa de Vídeo 24GB GDDR6X",
+      "preco": 9499,
+      "quantidade": 2,
+      "ativo": true,
+      "subcategoria": {
+        "codigo": 202,
+        "nome": "Placas de Vídeo",
+        "codigoCategoria": 2
+      },
+      "categoria": {
+        "codigo": 2,
+        "nome": "Hardware & Componentes"
+      }
+    },
+    {
+      "codigo": 1039,
+      "nome": "Placa de Vídeo Watercooled 16GB",
+      "preco": 5600,
+      "quantidade": 3,
+      "ativo": true,
+      "subcategoria": {
+        "codigo": 202,
+        "nome": "Placas de Vídeo",
+        "codigoCategoria": 2
+      },
+      "categoria": {
+        "codigo": 2,
+        "nome": "Hardware & Componentes"
+      }
+    },
+    {
+      "codigo": 1056,
+      "nome": "Monitor Profissional AdobeRGB 27",
+      "preco": 3800,
+      "quantidade": 3,
+      "ativo": true,
+      "subcategoria": {
+        "codigo": 302,
+        "nome": "Monitores",
+        "codigoCategoria": 3
+      },
+      "categoria": {
+        "codigo": 3,
+        "nome": "Áudio & Vídeo"
+      }
+    },
+    {
+      "codigo": 1057,
+      "nome": "Monitor Gamer OLED 240Hz",
+      "preco": 5200,
+      "quantidade": 2,
+      "ativo": false,
+      "subcategoria": {
+        "codigo": 302,
+        "nome": "Monitores",
+        "codigoCategoria": 3
+      },
+      "categoria": {
+        "codigo": 3,
+        "nome": "Áudio & Vídeo"
+      }
+    },
+    {
+      "codigo": 1060,
+      "nome": "Monitor Ergostand 27 4K",
+      "preco": 2799,
+      "quantidade": 4,
+      "ativo": true,
+      "subcategoria": {
+        "codigo": 302,
+        "nome": "Monitores",
+        "codigoCategoria": 3
+      },
+      "categoria": {
+        "codigo": 3,
+        "nome": "Áudio & Vídeo"
+      }
+    },
+    {
+      "codigo": 1064,
+      "nome": "Smartphone Dobrável 256GB",
+      "preco": 6890,
+      "quantidade": 4,
+      "ativo": true,
+      "subcategoria": {
+        "codigo": 401,
+        "nome": "Smartphones",
+        "codigoCategoria": 4
+      },
+      "categoria": {
+        "codigo": 4,
+        "nome": "Dispositivos Móveis"
+      }
+    },
+    {
+      "codigo": 1070,
+      "nome": "Smartphone Pro Max 1TB 5G",
+      "preco": 8999,
+      "quantidade": 2,
+      "ativo": true,
+      "subcategoria": {
+        "codigo": 401,
+        "nome": "Smartphones",
+        "codigoCategoria": 4
+      },
+      "categoria": {
+        "codigo": 4,
+        "nome": "Dispositivos Móveis"
+      }
+    },
+    {
+      "codigo": 1079,
+      "nome": "Smartwatch Titânio Sapphire",
+      "preco": 2499,
+      "quantidade": 3,
+      "ativo": true,
+      "subcategoria": {
+        "codigo": 402,
+        "nome": "Smartwatches & Wearables",
+        "codigoCategoria": 4
+      },
+      "categoria": {
+        "codigo": 4,
+        "nome": "Dispositivos Móveis"
+      }
+    },
+    {
+      "codigo": 1086,
+      "nome": "Console de Mesa Edição Especial 2TB",
+      "preco": 4799,
+      "quantidade": 4,
+      "ativo": true,
+      "subcategoria": {
+        "codigo": 501,
+        "nome": "Consoles",
+        "codigoCategoria": 5
+      },
+      "categoria": {
+        "codigo": 5,
+        "nome": "Consoles & Games"
+      }
+    },
+    {
+      "codigo": 1093,
+      "nome": "Controle Volante com Pedais Force Feedback",
+      "preco": 1899,
+      "quantidade": 4,
+      "ativo": true,
+      "subcategoria": {
+        "codigo": 502,
+        "nome": "Controles & Acessórios",
+        "codigoCategoria": 5
+      },
+      "categoria": {
+        "codigo": 5,
+        "nome": "Consoles & Games"
+      }
+    },
+    {
+      "codigo": 1099,
+      "nome": "Controle Joystick Simulador Voo",
+      "preco": 1100,
+      "quantidade": 3,
+      "ativo": false,
+      "subcategoria": {
+        "codigo": 502,
+        "nome": "Controles & Acessórios",
+        "codigoCategoria": 5
+      },
+      "categoria": {
+        "codigo": 5,
+        "nome": "Consoles & Games"
+      }
+    }
+  ]
+}
