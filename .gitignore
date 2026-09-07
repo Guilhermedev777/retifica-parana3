@@ -6,8 +6,9 @@ package-lock.json
 # Configuracao local de ferramenta, nao faz parte do projeto
 .claude/
 
-# Script auxiliar local
+# Scripts auxiliares locais
 enviar-para-github.bat
+instalar-tipos-node.bat
 
 # Material de estudo pessoal, nao faz parte do projeto
 ROTEIRO-APRESENTACAO.md

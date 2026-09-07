@@ -24,12 +24,25 @@ Dentro desta pasta:
 node auditoria.js
 ```
 
-O `auditoria.js` já vem compilado, então não precisa instalar nada. Para
-recompilar depois de mexer no `auditoria.ts`:
+O `auditoria.js` já vem compilado, então não precisa instalar nada para rodar.
+
+## Como recompilar
+
+O `tsconfig.json` desta pasta já tem a configuração certa (Node + CommonJS),
+então basta rodar aqui dentro:
 
 ```
-npx tsc auditoria.ts --target ES2020 --module commonjs
+npx tsc
 ```
+
+Os tipos do Node ficam na raiz do projeto e são instalados uma única vez:
+
+```
+npm install --save-dev @types/node@22
+```
+
+Sem eles o TypeScript acusa `Cannot find module 'fs/promises'`. É apenas o
+pacote de tipos faltando — o código compila e roda do mesmo jeito.
 
 ## Arquivos
 
@@ -37,13 +50,9 @@ npx tsc auditoria.ts --target ES2020 --module commonjs
 - `auditoria.js` — o mesmo script compilado
 - `estoque.json` — os 100 itens de entrada
 - `auditoria.json` — o relatório gerado pela última execução
+- `tsconfig.json` — configuração de compilação desta pasta
 
 ## Resultado da última execução
 
 - Valor total do estoque: **R$ 1.150.221,90**
 - Produtos em nível crítico: **16** de 100
-
-> Observação: ao compilar, o TypeScript avisa que não encontra os tipos do Node
-> (`Cannot find name 'fs/promises'`). É só o pacote de tipos que não está
-> instalado — o código compila e roda normalmente. Para tirar o aviso:
-> `npm i -D @types/node`.

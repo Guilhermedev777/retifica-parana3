@@ -1,18 +1,11 @@
 "use strict";
-/*
-    Desafio Final: Auditoria de Estoque Assincrona
-    Leitura e gravacao de arquivos sem bloquear a Main Thread (fs/promises + then/catch).
 
-    Como executar (dentro desta pasta):
-        npx tsc auditoria.ts --target ES2020 --module commonjs
-        node auditoria.js
-*/
 Object.defineProperty(exports, "__esModule", { value: true });
 const promises_1 = require("fs/promises");
 const CAMINHO_ESTOQUE = "./estoque.json";
 const CAMINHO_AUDITORIA = "./auditoria.json";
 const QUANTIDADE_CRITICA = 5;
-// [3] LOGICA
+//
 const calcularValorTotal = (itens) => itens.reduce((total, item) => total + (item.preco * item.quantidade), 0);
 const filtrarProdutosCriticos = (itens) => itens.filter((item) => item.quantidade < QUANTIDADE_CRITICA);
 const gerarRelatorio = (itens) => {
@@ -22,7 +15,8 @@ const gerarRelatorio = (itens) => {
     };
     return relatorio;
 };
-// [2] PIPELINE + [4] PERSISTENCIA
+//
+
 (0, promises_1.readFile)(CAMINHO_ESTOQUE, "utf-8")
     .then((conteudo) => {
     const itens = JSON.parse(conteudo);
