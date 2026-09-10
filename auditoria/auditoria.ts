@@ -1,15 +1,19 @@
-
-
 import { readFile, writeFile } from "fs/promises";
 
-//
-
-type ItemEstoque = {
+// [1] TIPAGEM
+type ItemBruto = {
     codigo: number,
     nome: string,
     preco: number,
     quantidade: number,
     ativo: boolean
+}
+
+type ItemEstoque = {
+    id: number,
+    nome: string,
+    preco: number,
+    quantidade: number
 }
 
 type RelatorioAuditoria = {
@@ -21,7 +25,15 @@ const CAMINHO_ESTOQUE: string = "./estoque.json";
 const CAMINHO_AUDITORIA: string = "./auditoria.json";
 const QUANTIDADE_CRITICA: number = 5;
 
-//
+// [3] LOGICA
+const converterParaItens = (brutos: ItemBruto[]): ItemEstoque[] =>
+    brutos.map((bruto: ItemBruto): ItemEstoque => ({
+        id: bruto.codigo,
+        nome: bruto.nome,
+        preco: bruto.preco,
+        quantidade: bruto.quantidade
+    }));
+
 const calcularValorTotal = (itens: ItemEstoque[]): number =>
     itens.reduce((total: number, item: ItemEstoque): number => total + (item.preco * item.quantidade), 0);
 
@@ -37,10 +49,11 @@ const gerarRelatorio = (itens: ItemEstoque[]): RelatorioAuditoria => {
     return relatorio;
 }
 
-//
+// [2] PIPELINE + [4] PERSISTENCIA
 readFile(CAMINHO_ESTOQUE, "utf-8")
     .then((conteudo: string): Promise<RelatorioAuditoria> => {
-        const itens: ItemEstoque[] = JSON.parse(conteudo);
+        const brutos: ItemBruto[] = JSON.parse(conteudo);
+        const itens: ItemEstoque[] = converterParaItens(brutos);
         const relatorio: RelatorioAuditoria = gerarRelatorio(itens);
 
         return writeFile(CAMINHO_AUDITORIA, JSON.stringify(relatorio, null, 2), "utf-8")

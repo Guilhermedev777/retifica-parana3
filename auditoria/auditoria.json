@@ -1,261 +1,113 @@
 {
-  "valorTotalEstoque": 1150221.9,
+  "valorTotalEstoque": 318917.9,
   "produtosCriticos": [
     {
-      "codigo": 1016,
-      "nome": "Mouse Trackball Wireless",
-      "preco": 310,
-      "quantidade": 4,
-      "ativo": false,
-      "subcategoria": {
-        "codigo": 102,
-        "nome": "Mouses",
-        "codigoCategoria": 1
-      },
-      "categoria": {
-        "codigo": 1,
-        "nome": "Periféricos"
-      }
+      "id": 1001,
+      "nome": "Bloco do Motor AP 1.8 Retificado",
+      "preco": 2890,
+      "quantidade": 3
     },
     {
-      "codigo": 1025,
-      "nome": "Processador 16-Core 5.2GHz",
-      "preco": 3499.9,
-      "quantidade": 3,
-      "ativo": true,
-      "subcategoria": {
-        "codigo": 201,
-        "nome": "Processadores",
-        "codigoCategoria": 2
-      },
-      "categoria": {
-        "codigo": 2,
-        "nome": "Hardware & Componentes"
-      }
+      "id": 1002,
+      "nome": "Bloco do Motor Fire 1.0 Retificado",
+      "preco": 2450,
+      "quantidade": 2
     },
     {
-      "codigo": 1027,
-      "nome": "Processador High-End 24-Core",
-      "preco": 4299,
-      "quantidade": 2,
-      "ativo": false,
-      "subcategoria": {
-        "codigo": 201,
-        "nome": "Processadores",
-        "codigoCategoria": 2
-      },
-      "categoria": {
-        "codigo": 2,
-        "nome": "Hardware & Componentes"
-      }
+      "id": 1009,
+      "nome": "Cabeçote MWM 229 Recondicionado",
+      "preco": 3180,
+      "quantidade": 2
     },
     {
-      "codigo": 1028,
-      "nome": "Processador Server 32-Core",
-      "preco": 7800,
-      "quantidade": 1,
-      "ativo": false,
-      "subcategoria": {
-        "codigo": 201,
-        "nome": "Processadores",
-        "codigoCategoria": 2
-      },
-      "categoria": {
-        "codigo": 2,
-        "nome": "Hardware & Componentes"
-      }
+      "id": 1010,
+      "nome": "Cabeçote AP 1.6 Recondicionado",
+      "preco": 1740,
+      "quantidade": 4
     },
     {
-      "codigo": 1033,
-      "nome": "Placa de Vídeo 16GB GDDR6X",
-      "preco": 4899,
-      "quantidade": 4,
-      "ativo": true,
-      "subcategoria": {
-        "codigo": 202,
-        "nome": "Placas de Vídeo",
-        "codigoCategoria": 2
-      },
-      "categoria": {
-        "codigo": 2,
-        "nome": "Hardware & Componentes"
-      }
+      "id": 1019,
+      "nome": "Eixo de Balancins MWM 229",
+      "preco": 640,
+      "quantidade": 3
     },
     {
-      "codigo": 1034,
-      "nome": "Placa de Vídeo 24GB GDDR6X",
-      "preco": 9499,
-      "quantidade": 2,
-      "ativo": true,
-      "subcategoria": {
-        "codigo": 202,
-        "nome": "Placas de Vídeo",
-        "codigoCategoria": 2
-      },
-      "categoria": {
-        "codigo": 2,
-        "nome": "Hardware & Componentes"
-      }
+      "id": 1031,
+      "nome": "Bronzina de Biela MWM 229 STD",
+      "preco": 396,
+      "quantidade": 4
     },
     {
-      "codigo": 1039,
-      "nome": "Placa de Vídeo Watercooled 16GB",
-      "preco": 5600,
-      "quantidade": 3,
-      "ativo": true,
-      "subcategoria": {
-        "codigo": 202,
-        "nome": "Placas de Vídeo",
-        "codigoCategoria": 2
-      },
-      "categoria": {
-        "codigo": 2,
-        "nome": "Hardware & Componentes"
-      }
+      "id": 1032,
+      "nome": "Bronzina de Mancal MWM 229 STD",
+      "preco": 452,
+      "quantidade": 3
     },
     {
-      "codigo": 1056,
-      "nome": "Monitor Profissional AdobeRGB 27",
-      "preco": 3800,
-      "quantidade": 3,
-      "ativo": true,
-      "subcategoria": {
-        "codigo": 302,
-        "nome": "Monitores",
-        "codigoCategoria": 3
-      },
-      "categoria": {
-        "codigo": 3,
-        "nome": "Áudio & Vídeo"
-      }
+      "id": 1035,
+      "nome": "Virabrequim AP 1.8 Retificado",
+      "preco": 1680,
+      "quantidade": 3
     },
     {
-      "codigo": 1057,
-      "nome": "Monitor Gamer OLED 240Hz",
-      "preco": 5200,
-      "quantidade": 2,
-      "ativo": false,
-      "subcategoria": {
-        "codigo": 302,
-        "nome": "Monitores",
-        "codigoCategoria": 3
-      },
-      "categoria": {
-        "codigo": 3,
-        "nome": "Áudio & Vídeo"
-      }
+      "id": 1036,
+      "nome": "Virabrequim Fire 1.0 Retificado",
+      "preco": 1420,
+      "quantidade": 2
     },
     {
-      "codigo": 1060,
-      "nome": "Monitor Ergostand 27 4K",
-      "preco": 2799,
-      "quantidade": 4,
-      "ativo": true,
-      "subcategoria": {
-        "codigo": 302,
-        "nome": "Monitores",
-        "codigoCategoria": 3
-      },
-      "categoria": {
-        "codigo": 3,
-        "nome": "Áudio & Vídeo"
-      }
+      "id": 1037,
+      "nome": "Virabrequim MWM 229 Retificado",
+      "preco": 2980,
+      "quantidade": 1
     },
     {
-      "codigo": 1064,
-      "nome": "Smartphone Dobrável 256GB",
-      "preco": 6890,
-      "quantidade": 4,
-      "ativo": true,
-      "subcategoria": {
-        "codigo": 401,
-        "nome": "Smartphones",
-        "codigoCategoria": 4
-      },
-      "categoria": {
-        "codigo": 4,
-        "nome": "Dispositivos Móveis"
-      }
+      "id": 1050,
+      "nome": "Eixo Comando AP 1.8 Original",
+      "preco": 890,
+      "quantidade": 4
     },
     {
-      "codigo": 1070,
-      "nome": "Smartphone Pro Max 1TB 5G",
-      "preco": 8999,
-      "quantidade": 2,
-      "ativo": true,
-      "subcategoria": {
-        "codigo": 401,
-        "nome": "Smartphones",
-        "codigoCategoria": 4
-      },
-      "categoria": {
-        "codigo": 4,
-        "nome": "Dispositivos Móveis"
-      }
+      "id": 1051,
+      "nome": "Eixo Comando Fire 1.0",
+      "preco": 760,
+      "quantidade": 3
     },
     {
-      "codigo": 1079,
-      "nome": "Smartwatch Titânio Sapphire",
-      "preco": 2499,
-      "quantidade": 3,
-      "ativo": true,
-      "subcategoria": {
-        "codigo": 402,
-        "nome": "Smartwatches & Wearables",
-        "codigoCategoria": 4
-      },
-      "categoria": {
-        "codigo": 4,
-        "nome": "Dispositivos Móveis"
-      }
+      "id": 1059,
+      "nome": "Volante Sincronizador 60-2",
+      "preco": 342,
+      "quantidade": 4
     },
     {
-      "codigo": 1086,
-      "nome": "Console de Mesa Edição Especial 2TB",
-      "preco": 4799,
-      "quantidade": 4,
-      "ativo": true,
-      "subcategoria": {
-        "codigo": 501,
-        "nome": "Consoles",
-        "codigoCategoria": 5
-      },
-      "categoria": {
-        "codigo": 5,
-        "nome": "Consoles & Games"
-      }
+      "id": 1066,
+      "nome": "Jogo de Juntas Completo MWM 229",
+      "preco": 620,
+      "quantidade": 4
     },
     {
-      "codigo": 1093,
-      "nome": "Controle Volante com Pedais Force Feedback",
-      "preco": 1899,
-      "quantidade": 4,
-      "ativo": true,
-      "subcategoria": {
-        "codigo": 502,
-        "nome": "Controles & Acessórios",
-        "codigoCategoria": 5
-      },
-      "categoria": {
-        "codigo": 5,
-        "nome": "Consoles & Games"
-      }
+      "id": 1084,
+      "nome": "Bomba Injetora Bosch VE Recondicionada",
+      "preco": 4890,
+      "quantidade": 2
     },
     {
-      "codigo": 1099,
-      "nome": "Controle Joystick Simulador Voo",
-      "preco": 1100,
-      "quantidade": 3,
-      "ativo": false,
-      "subcategoria": {
-        "codigo": 502,
-        "nome": "Controles & Acessórios",
-        "codigoCategoria": 5
-      },
-      "categoria": {
-        "codigo": 5,
-        "nome": "Consoles & Games"
-      }
+      "id": 1085,
+      "nome": "Bomba Injetora Delphi DPA Recondicionada",
+      "preco": 5240,
+      "quantidade": 1
+    },
+    {
+      "id": 1086,
+      "nome": "Elemento de Bomba Injetora Bosch",
+      "preco": 892,
+      "quantidade": 4
+    },
+    {
+      "id": 1088,
+      "nome": "Avanço Automático da Bomba",
+      "preco": 745,
+      "quantidade": 3
     }
   ]
 }
