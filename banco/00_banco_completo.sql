@@ -1,12 +1,5 @@
 -- Banco completo da dashboard da Retifica Parana.
--- Reune os arquivos 01 a 07 na ordem de execucao. Pode ser reimportado
--- quantas vezes for preciso sem dar erro de "ja existe".
-
-
--- =====================================================================
--- 01_schema.sql
--- =====================================================================
-
+-- Reune os arquivos 01 a 07 na ordem de execucao
 
 CREATE DATABASE IF NOT EXISTS retifica_parana
     CHARACTER SET utf8mb4

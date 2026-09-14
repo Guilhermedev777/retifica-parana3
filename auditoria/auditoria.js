@@ -4,7 +4,7 @@ const promises_1 = require("fs/promises");
 const CAMINHO_ESTOQUE = "./estoque.json";
 const CAMINHO_AUDITORIA = "./auditoria.json";
 const QUANTIDADE_CRITICA = 5;
-// [3] LOGICA
+// LOGICA
 const converterParaItens = (brutos) => brutos.map((bruto) => ({
     id: bruto.codigo,
     nome: bruto.nome,
@@ -20,7 +20,7 @@ const gerarRelatorio = (itens) => {
     };
     return relatorio;
 };
-// [2] PIPELINE + [4] PERSISTENCIA
+// 
 (0, promises_1.readFile)(CAMINHO_ESTOQUE, "utf-8")
     .then((conteudo) => {
     const brutos = JSON.parse(conteudo);

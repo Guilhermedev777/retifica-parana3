@@ -54,10 +54,7 @@ CREATE TABLE IF NOT EXISTS movimentacao_estoque (
         REFERENCES peca (id)
 ) ENGINE = InnoDB;
 
--- Se o banco ja existia de uma versao anterior, a tabela peca foi criada sem a
--- coluna de fornecedor, e o CREATE TABLE IF NOT EXISTS acima nao mexe em tabela
--- que ja existe. A coluna e a chave estrangeira entram aqui, para o script
--- servir tanto para banco novo quanto para banco antigo.
+
 ALTER TABLE peca ADD COLUMN IF NOT EXISTS fornecedor_id INT NULL AFTER categoria_id;
 
 ALTER TABLE peca ADD CONSTRAINT fk_peca_fornecedor

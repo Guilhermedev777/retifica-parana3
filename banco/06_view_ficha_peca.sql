@@ -1,12 +1,9 @@
 
 USE retifica_parana;
 
--- View centralizadora: junta quatro tabelas distintas (peca, categoria,
--- fornecedor e movimentacao_estoque) em uma consulta so, para o balcao ver a
--- ficha completa da peca sem abrir tabela por tabela.
+
 CREATE OR REPLACE VIEW vw_ficha_peca AS
--- O desempate e pelo maior id, e nao pelo maior criado_em: duas movimentacoes
--- gravadas no mesmo segundo empatariam na data e a peca apareceria duas vezes.
+
 WITH ultima_movimentacao AS (
     SELECT
         m.peca_id,

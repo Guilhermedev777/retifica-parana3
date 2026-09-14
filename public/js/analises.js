@@ -12,9 +12,9 @@ const calcularNivel = (peca) => {
     const referencia = (peca.quantidade_minima > 0) ? peca.quantidade_minima * 2 : 1;
     return Math.min(100, Math.round((peca.quantidade / referencia) * 100));
 };
-// ---------------------------------------------------------------------
+
 // filter: recortes de negocio sobre o array bruto que veio do PHP
-// ---------------------------------------------------------------------
+
 export const apenasCriticas = (pecas) => {
     return pecas.filter((peca) => peca.situacao === "CRITICO");
 };
@@ -33,9 +33,9 @@ export const porFornecedor = (pecas, fornecedor) => {
 export const acimaDoValor = (pecas, valorMinimo) => {
     return pecas.filter((peca) => peca.valor_em_estoque >= valorMinimo);
 };
-// ---------------------------------------------------------------------
+
 // ranking: objetos de contagem chave-valor para achar o destaque
-// ---------------------------------------------------------------------
+
 export const contarPorCategoria = (pecas) => {
     const contagem = {};
     for (const peca of pecas) {
@@ -84,9 +84,9 @@ export const pecaDeMaiorValor = (pecas) => {
     }
     return destaque;
 };
-// ---------------------------------------------------------------------
+
 // map: transforma o formato da API no formato que a tela precisa
-// ---------------------------------------------------------------------
+
 export const paraLinhaTabela = (pecas) => {
     return pecas.map((peca) => {
         const linha = {

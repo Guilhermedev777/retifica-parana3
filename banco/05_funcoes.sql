@@ -30,10 +30,7 @@ END$$
 
 DELIMITER ;
 
--- A regra de situacao e o calculo do valor nasceram escritos a mao dentro da view,
--- em 03_views_ctes.sql. Agora que viraram funcao, a view e reescrita chamando as
--- duas: a regra passa a existir em um lugar so e e reaproveitada pela view
--- centralizadora (06) e pelas procedures (07).
+
 CREATE OR REPLACE VIEW vw_pecas_dashboard AS
 WITH peca_limpa AS (
     SELECT

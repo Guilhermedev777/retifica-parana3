@@ -15,11 +15,7 @@ INSERT INTO fornecedor (nome, cnpj, telefone, cidade) VALUES
     ('Juntas Parana Comercio',  '33.444.555/0001-66', '(43) 3325-3300', 'Londrina')
 ON DUPLICATE KEY UPDATE nome = VALUES(nome);
 
--- Os codigos de exemplo passaram a ser sequenciais (PN-0001 em diante). Em um
--- banco importado antes dessa mudanca as pecas estao gravadas com os codigos
--- antigos; sem apagar essas linhas, o INSERT abaixo cadastraria tudo de novo e
--- o estoque apareceria em dobro. A movimentacao sai primeiro por causa da
--- chave estrangeira.
+
 DELETE FROM movimentacao_estoque
 WHERE peca_id IN (
     SELECT id FROM peca WHERE codigo IN (
