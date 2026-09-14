@@ -57,7 +57,7 @@ Se perguntarem do tipo: o PDO devolve `DECIMAL` como texto, por isso o `(float)`
 ### 2:40 — Trigger (30s) — 1,00
 
 ```sql
-UPDATE peca SET quantidade = -7 WHERE codigo='PN-1001';
+UPDATE peca SET quantidade = -7 WHERE codigo='PN-0001';
 ```
 
 Consulte a peça e mostre o 7 gravado.
@@ -72,7 +72,7 @@ Consulte a peça e mostre o 7 gravado.
 
 ### 4:40 — CRUD e regra de exclusão (1min) — 1,30 + 0,50
 
-Cadastre uma peça, edite, e tente excluir a `PN-2001` (40 unidades). Leia a
+Cadastre uma peça, edite, e tente excluir a `PN-0006` (40 unidades). Leia a
 mensagem em voz alta: *"zere a quantidade antes de excluir."*
 
 ### 5:40 — O código por dentro (1min20) — Lógica, 3,00
@@ -124,7 +124,7 @@ responde. Se não souber, diga que não sabe e diga o que faria para descobrir.
 - [ ] phpMyAdmin no banco `retifica_parana`, em outra aba
 - [ ] As quatro consultas já digitadas, prontas para dar Enter
 - [ ] Terminal aberto na pasta do projeto, pronto para `tsc`
-- [ ] PN-1001 e PN-2001 conferidas com estoque
+- [ ] PN-0001 e PN-0006 conferidas com estoque
 - [ ] `node auditoria.js` rodado uma vez, funcionando
 - [ ] Celular no silencioso e notificações do PC desligadas
 - [ ] Água na mesa

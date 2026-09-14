@@ -14,6 +14,10 @@ instalar-tipos-node.bat
 ROTEIRO-APRESENTACAO.md
 RESULTADO.md
 PLANO-DE-ACAO.md
+ENSAIO.md
+
+# Fora do repositorio por opcao
+.gitignore
 
 # Lixo de sistema operacional
 Thumbs.db
@@ -22,4 +26,4 @@ desktop.ini
 
 # ATENCAO: public/js/ NAO entra aqui de proposito.
 # O JavaScript compilado vai junto no repositorio para o projeto
-# rodar sem precisar instalar o Node, como o README promete.
+# rodar sem precisar instalar o Node.
