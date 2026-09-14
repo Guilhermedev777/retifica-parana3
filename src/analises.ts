@@ -1,5 +1,5 @@
 import { formatarInteiro, formatarReais } from "./metricas.js";
-import { ContagemPorChave, Destaque, LinhaTabela, Peca, PontoGrafico } from "./tipos.js";
+import { ContagemPorChave, Destaque, LinhaTabela, Peca } from "./tipos.js";
 
 export const traduzSituacao = (situacao: string): string => {
     if (situacao === "CRITICO") {
@@ -137,13 +137,4 @@ export const paraLinhaTabela = (pecas: Peca[]): LinhaTabela[] => {
 
         return linha;
     });
-}
-
-export const paraSerieGrafico = (contagem: ContagemPorChave): PontoGrafico[] => {
-    const serie = Object.keys(contagem).map((chave) => {
-        const ponto: PontoGrafico = { rotulo: chave, valor: contagem[chave] };
-        return ponto;
-    });
-
-    return serie.sort((um, outro) => outro.valor - um.valor);
 }

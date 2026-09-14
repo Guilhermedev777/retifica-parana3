@@ -11,8 +11,8 @@ quanto de dinheiro está parado nela e o que precisa ser reposto.
 Quatro indicadores no topo: valor em estoque, peças na prateleira, itens
 cadastrados e quantos precisam de reposição.
 
-Abaixo, um bloco de destaque com a categoria que mais imobiliza dinheiro, a
-peça de maior valor parado e um gráfico de barras com o valor por categoria.
+Abaixo, um bloco de destaque com a categoria que mais imobiliza dinheiro e a
+peça de maior valor parado.
 
 Depois vem a prateleira, em tabela, com busca por código ou nome, filtro por
 categoria e por situação, paginação, e as abas Todas / Repor / Zeradas.

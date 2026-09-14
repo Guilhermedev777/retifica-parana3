@@ -96,11 +96,6 @@ export type LinhaTabela = {
     nivel: number
 }
 
-export type PontoGrafico = {
-    rotulo: string,
-    valor: number
-}
-
 export type Destaque = {
     rotulo: string,
     valor: number

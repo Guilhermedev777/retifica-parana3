@@ -107,7 +107,6 @@
                         <p class="destaque__nota" id="destaquePecaValor">R$ 0,00</p>
                     </div>
                 </div>
-                <div class="grafico-caixa" id="grafico"></div>
             </article>
         </section>
 

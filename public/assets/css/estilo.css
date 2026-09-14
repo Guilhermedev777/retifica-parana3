@@ -568,7 +568,7 @@ body {
 }
 
 /* ------------------------------------------------------------------ */
-/* bloco de analise, destaques e grafico                                */
+/* bloco de analise e destaques                                         */
 /* ------------------------------------------------------------------ */
 
 .analise {
@@ -597,7 +597,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
-  margin-bottom: 18px;
 }
 
 .destaque__rotulo {
@@ -624,35 +623,7 @@ body {
   margin: 0;
 }
 
-.grafico-caixa {
-  overflow-x: auto;
-}
 
-.grafico {
-  width: 100%;
-  min-width: 480px;
-  height: auto;
-}
-
-.gr-trilho {
-  fill: var(--aco);
-}
-
-.gr-barra {
-  fill: var(--grafite);
-}
-
-.gr-rotulo {
-  fill: var(--oleo);
-  font-family: var(--fonte-texto);
-  font-size: 13px;
-}
-
-.gr-valor {
-  fill: var(--grafite);
-  font-family: var(--fonte-numero);
-  font-size: 13px;
-}
 
 /* ------------------------------------------------------------------ */
 /* abas e paginacao                                                     */

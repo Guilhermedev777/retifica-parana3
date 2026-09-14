@@ -104,10 +104,3 @@ export const paraLinhaTabela = (pecas) => {
         return linha;
     });
 };
-export const paraSerieGrafico = (contagem) => {
-    const serie = Object.keys(contagem).map((chave) => {
-        const ponto = { rotulo: chave, valor: contagem[chave] };
-        return ponto;
-    });
-    return serie.sort((um, outro) => outro.valor - um.valor);
-};

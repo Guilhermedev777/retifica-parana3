@@ -1,6 +1,5 @@
-import { apenasZeradas, categoriaQueMaisImobiliza, paraLinhaTabela, paraRepor, paraSerieGrafico, pecaDeMaiorValor, somarValorPorCategoria } from "./analises.js";
+import { apenasZeradas, categoriaQueMaisImobiliza, paraLinhaTabela, paraRepor, pecaDeMaiorValor } from "./analises.js";
 import { buscarCategorias, buscarPecas } from "./api.js";
-import { desenharGrafico } from "./grafico.js";
 import { calcularMetricas, formatarInteiro, formatarReais } from "./metricas.js";
 import { Categoria, FiltroPecas, LinhaTabela, Peca } from "./tipos.js";
 
@@ -142,11 +141,6 @@ const renderizarDestaques = (pecas: Peca[]): void => {
     }
 }
 
-const renderizarGrafico = (pecas: Peca[]): void => {
-    const serie = paraSerieGrafico(somarValorPorCategoria(pecas));
-    desenhar("grafico", desenharGrafico(serie));
-}
-
 const renderizarPaginacao = (): void => {
     const primeira = (filtro.pagina - 1) * filtro.limite + 1;
     const ultima = primeira + pecasDaPagina.length - 1;
@@ -191,7 +185,6 @@ const renderizarTudo = (): void => {
 
     renderizarIndicadores(pecasDaPagina);
     renderizarDestaques(pecasDaPagina);
-    renderizarGrafico(pecasDaPagina);
     renderizarTabela(visiveis);
     renderizarPaginacao();
     marcarAba();
