@@ -32,7 +32,7 @@ try {
 
     echo json_encode([
         "ok"       => true,
-        "mensagem" => "Peca " . $dados->codigo . " excluida. O historico de movimentacao foi mantido."
+        "mensagem" => "Peca " . $dados->codigo . " excluida."
     ], JSON_UNESCAPED_UNICODE);
 } catch (PDOException $e) {
     http_response_code(500);

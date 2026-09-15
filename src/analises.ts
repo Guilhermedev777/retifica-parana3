@@ -1,6 +1,6 @@
 import { formatarInteiro, formatarReais } from "./metricas.js";
 import { ContagemPorChave, Destaque, LinhaTabela, Peca } from "./tipos.js";
-
+//aqui ele traduz a situação da peça pra exibir no frontend
 export const traduzSituacao = (situacao: string): string => {
     if (situacao === "CRITICO") {
         return "Repor";

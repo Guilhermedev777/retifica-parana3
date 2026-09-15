@@ -74,7 +74,7 @@ const pecasDaAba = (): Peca[] => {
 
     return pecasDaPagina;
 }
-
+// const situação 
 const montarLinha = (linha: LinhaTabela): string => {
     const situacao = linha.situacao.toLowerCase();
 
